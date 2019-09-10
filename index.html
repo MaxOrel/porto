@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        Demo Project
+      </div>
+
+      <nav>
+        <ul class="menu">
+          <li><a href="/">Главная</a></li>
+          <li><a href="/">Яндекс.Практикум</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <div class="about">
+        <img src="img/code.jpg" alt="Code" />
+        <h2>Задание</h2>
+        <p>
+          Сделай форк данного проекта на github.com, склонируй форк на свой
+          компьютер, внеси изменения – добавь себя в список контрибьютеров ниже,
+          закоммить изменения в форк, создай из форка pull request в совновной
+          репозиторий.
+        </p>
+      </div>
+      <section class="contributers">
+        <header class="contributers__header">
+          <h2>Контрибьютеры</h2>
+          <button
+            id="toggle-contributers"
+            type="button"
+            class="btn btn-primary btn-sm"
+          >
+            Toggle contributers
+          </button>
+        </header>
+        <ul class="contributers__list">
+          <li>Имя Фамилия (никнейм)</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer"></footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
